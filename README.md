@@ -4,4 +4,4 @@
 
 ### Email address : afnanalamanan@gmail.com
 
-#### Live link : [Click here](https://anan.dev)
+#### Live link : [Click here](https://assicc.netlify.app/)
