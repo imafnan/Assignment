@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Assiment-4</title>
+  <link rel="icon" type="image/x-icon" href="./imgs/favicon.png">
+  ⁡⁣⁣⁢<!-- Css Linking -->⁡
+  <link rel="stylesheet" href="./Styles/main.css">
+  <link rel="stylesheet" href="./Styles/API-Card.css">
+  ⁡⁣⁣⁢<!-- Font Aowsam Icon Linking -->⁡
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+    integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="./offline-CDN/fontwosam.min.css">
+  <!-- FavIcon linking -->
+  <link rel="shortcut icon" href="./imgs/favicon.png" type="image/x-icon">
+</head>
+
+<body>
+
+
+  ⁡⁣⁣⁢ <!-- Starting Root -->⁡
+  <div class="root">
+    ⁡⁣⁣⁢<!-- Hero + Navigation Continer starting  -->⁡
+    <div class="conteiner">
+      <nav><img class="logo" src="./imgs/logo.png" alt="WebAppLogo"></nav>
+      <header>
+        <div class="hero">
+          <h1>Search Your <br> Favorite Recipe</h1>
+          <p>A handful of simple ingredients typify the fresh, vibrant <br>
+            flavors of Greek cooking</p>
+        </div>
+        <img class="hero-Background" src="./imgs/page-title.jpg" alt="hero-Background">
+      </header>
+    </div>
+    ⁡⁣⁣⁢<!-- Hero + Navigation Continer Endting  -->⁡
+
+
+
+    ⁡⁣⁣⁢<!-- Iteam, Product Sarch Bar Section starting   -->⁡
+    <div class="sarchBarSection">
+      <input type="text" placeholder="Sarch..." name="sarchBar" id="sarchBar">
+      <button id="searchBtn"><i class="fa-solid fa-magnifying-glass"></i></button>
+    </div>
+    ⁡⁣⁣⁢<!-- Iteam, Product Sarch Bar Section Ending   -->⁡
+
+
+
+    ⁡⁣⁣⁢<!-- Product Card Section starting Codes -->⁡
+    <section class="ProductSection">
+      <h2>Letest Recipies</h2>
+      <div class="loader" id="loader"></div>
+
+
+      <div class="ProductSectionCards">
+
+        <div class="product-card">
+        </div>
+
+
+      </div>
+
+      <!-- Modal -->
+      <div id="modal" class="modal">
+        <div class="modal-content">
+          <img id="modalImg" src="" alt="Meal Image">
+          <h3 id="modalTitle"></h3>
+          <p id="modalInstructions"></p>
+          <button id="closeModal">close</button>
+        </div>
+      </div>
+
+
+    </section>
+    ⁡⁣⁣⁢<!-- Product Card Section Ending Codes -->
+    ⁡
+
+    ⁡⁣⁣⁢<!-- Footer Section Starting  -->⁡
+    <footer>
+      <p>Copyright © 2023 - All right reserved</p>
+      <ul>
+        <li><i class="fa-brands fa-twitter"></i></li>
+        <li><i class="fa-brands fa-youtube"></i></li>
+        <li><i class="fa-brands fa-facebook"></i></li>
+      </ul>
+    </footer>
+    ⁡⁣⁣⁢ <!-- Footer Section Ending  -->⁡
+
+
+  </div>
+
+  ⁡⁣⁣⁢ <!-- Ending Root -->⁡
+
+
+
+  ⁡⁣⁣⁢<!-- Script Javascript Linking -->⁡
+  <script src="./JS/Main.js"></script>
+  <script src="./JS/sharch.js"></script>
+</body>
+
+</html>
